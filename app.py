@@ -4,7 +4,7 @@ import sys
 
 import pytesseract
 from flask import Flask, render_template, request
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 
 __author__ = 'Rick Torzynski <ricktorzynski@gmail.com>'
 __source__ = ''

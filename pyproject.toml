@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ocr-tesseract-docker"
+version = "1.1.0"
+description = "OCR Using Tesseract via Docker"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "ocr_tesseract_docker"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytesseract = "^0.3.10"
+Flask = "^2.2.2"
+Werkzeug = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
